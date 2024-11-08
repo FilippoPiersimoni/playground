@@ -1,0 +1,29 @@
+Git protocollo che tiene traccia dei cambiamenti nei codici
+GitHub host
+
+azioni:
+In MSA there are 3 repos, each one is refered to a specific software (code) ()
+
+Staging (automated from desktop) and committing.
+
+pull: download the repo
+commit: I changed this and that (for each one)
+push: upload all commits in the main folder
+
+git pull: from remote repo to local repo
+
+stash
+then commit 
+then push
+
+There's the MAIN branch that has only official correct codes are written
+Thene there's a copy of the main branch where I can write all the commits until the code is not fully correct. Then, through a merge,I can upload the MAIN branch. 
+
+basic commits (must be short):
+UPDATE (code modified)
+CHORE
+FEATURE (new function)
+FIX (error fixed)
+DOCS
+REFACTOR
+STYLE
